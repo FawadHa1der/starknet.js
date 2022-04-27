@@ -1,7 +1,6 @@
 import type { ec as EC } from 'elliptic';
 
 import type { BigNumberish } from '../utils/number';
-
 export declare type KeyPair = EC.KeyPair;
 export declare type Signature = string[];
 export declare type RawCalldata = BigNumberish[];

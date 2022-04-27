@@ -2,7 +2,6 @@ import { ec as EC } from 'elliptic';
 
 import { KeyPair, Signature } from '../types';
 import { BigNumberish } from './number';
-
 export declare const ec: EC;
 export declare const genKeyPair: (options?: EC.GenKeyPairOptions | undefined) => EC.KeyPair;
 export declare function getKeyPair(pk: BigNumberish): KeyPair;

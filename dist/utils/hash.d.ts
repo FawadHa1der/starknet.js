@@ -2,7 +2,6 @@ import BN from 'bn.js';
 
 import { StarknetChainId, TransactionHashPrefix } from '../constants';
 import { BigNumberish } from './number';
-
 export declare const transactionVersion = 0;
 export declare const feeTransactionVersion: BN;
 /**

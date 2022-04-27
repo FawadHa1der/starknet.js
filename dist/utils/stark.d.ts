@@ -2,7 +2,6 @@ import BN from 'bn.js';
 
 import { Calldata, CompressedProgram, Program, RawArgs, Signature } from '../types';
 import { BigNumberish } from './number';
-
 /**
  * Function to compress compiled cairo program
  *
